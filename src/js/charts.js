@@ -331,6 +331,213 @@ export function initCharts() {
       }
     })
   }
+
+  // ==========================================
+  // Analytics Dashboard Charts
+  // ==========================================
+
+  // Analytics Traffic Overview Chart
+  const analyticsTrafficCtx = document.getElementById('analyticsTrafficChart')
+  if (analyticsTrafficCtx) {
+    analyticsTrafficCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    analyticsTrafficCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+        datasets: [{
+          label: 'Page Views',
+          data: [18500, 22400, 19800, 28900, 25600, 32100, 29400],
+          borderColor: colors.primary,
+          backgroundColor: colors.primary + '20',
+          tension: 0.4,
+          fill: true
+        }, {
+          label: 'Unique Visitors',
+          data: [12400, 15200, 13800, 19200, 17400, 21800, 19800],
+          borderColor: colors.success,
+          backgroundColor: 'transparent',
+          tension: 0.4
+        }]
+      },
+      options: {
+        ...options,
+        plugins: {
+          ...options.plugins,
+          legend: {
+            ...options.plugins.legend,
+            position: 'top'
+          }
+        }
+      }
+    })
+  }
+
+  // Analytics Traffic Sources Chart
+  const analyticsSourcesCtx = document.getElementById('analyticsSourcesChart')
+  if (analyticsSourcesCtx) {
+    analyticsSourcesCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    analyticsSourcesCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'doughnut',
+      data: {
+        labels: ['Organic Search', 'Direct', 'Referral', 'Social'],
+        datasets: [{
+          data: [38, 26, 22, 14],
+          backgroundColor: [colors.primary, colors.success, colors.warning, colors.info],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '70%',
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    })
+  }
+
+  // ==========================================
+  // E-commerce Dashboard Charts
+  // ==========================================
+
+  // E-commerce Sales Overview Chart
+  const ecommerceSalesCtx = document.getElementById('ecommerceSalesChart')
+  if (ecommerceSalesCtx) {
+    ecommerceSalesCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    ecommerceSalesCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
+        datasets: [{
+          label: 'Revenue',
+          data: [28500, 34200, 31800, 42900],
+          backgroundColor: colors.primary,
+          borderRadius: 4
+        }, {
+          label: 'Orders',
+          data: [18200, 22400, 20100, 28600],
+          backgroundColor: colors.success,
+          borderRadius: 4
+        }]
+      },
+      options
+    })
+  }
+
+  // ==========================================
+  // SaaS Dashboard Charts
+  // ==========================================
+
+  // SaaS Revenue Growth Chart
+  const saasRevenueCtx = document.getElementById('saasRevenueChart')
+  if (saasRevenueCtx) {
+    saasRevenueCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    saasRevenueCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+          label: 'MRR',
+          data: [52000, 55400, 58200, 62800, 65400, 69200, 72800, 75600, 78400, 81200, 82800, 84254],
+          borderColor: colors.primary,
+          backgroundColor: colors.primary + '20',
+          tension: 0.4,
+          fill: true
+        }, {
+          label: 'New Revenue',
+          data: [4200, 3800, 4600, 5200, 4800, 5400, 4200, 5800, 4600, 5200, 4400, 5800],
+          borderColor: colors.success,
+          backgroundColor: 'transparent',
+          tension: 0.4
+        }]
+      },
+      options: {
+        ...options,
+        plugins: {
+          ...options.plugins,
+          legend: {
+            display: false
+          }
+        }
+      }
+    })
+  }
+
+  // SaaS Subscription Plans Chart
+  const saasPlansCtx = document.getElementById('saasPlansChart')
+  if (saasPlansCtx) {
+    saasPlansCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    saasPlansCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'doughnut',
+      data: {
+        labels: ['Enterprise', 'Professional', 'Starter'],
+        datasets: [{
+          data: [54, 34, 12],
+          backgroundColor: [colors.primary, colors.success, colors.warning],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '70%',
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    })
+  }
+
+  // ==========================================
+  // Finance Dashboard Charts
+  // ==========================================
+
+  // Finance Cash Flow Chart
+  const financeCashflowCtx = document.getElementById('financeCashflowChart')
+  if (financeCashflowCtx) {
+    financeCashflowCtx.innerHTML = ''
+    const canvas = document.createElement('canvas')
+    financeCashflowCtx.appendChild(canvas)
+
+    new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+          label: 'Income',
+          data: [95000, 108000, 102000, 118000, 125000, 132000, 128000, 142000, 138000, 148000, 142847, 155000],
+          backgroundColor: colors.success,
+          borderRadius: 4
+        }, {
+          label: 'Expenses',
+          data: [58000, 62000, 55000, 68000, 72000, 65000, 70000, 75000, 68000, 72000, 68234, 74000],
+          backgroundColor: colors.danger,
+          borderRadius: 4
+        }]
+      },
+      options
+    })
+  }
 }
 
 // Re-initialize charts when theme changes (to update colors)
